@@ -1,11 +1,11 @@
 import { FooterItems, TopButton } from "../components"
 const FooterPage = () =>{
     return(
-       <footer className="footer-page">
+       <div className="footer-page flex flex-row bg-primary">
        <FooterItems />
        <TopButton />
 
-       </footer>
+       </div>
     )
 }
 

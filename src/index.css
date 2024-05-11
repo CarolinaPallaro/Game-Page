@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    :root{
+        --color-primary:  rgb(18, 18, 18);
+        --color-secondary: #0c;
+        --bg-color-default: white;
+        --text-color-default: black;
+        --border-radius: 5px;
+       
+        padding: auto;
+        margin: 0;
+        
+    }
+
+   
+}
+
+
+

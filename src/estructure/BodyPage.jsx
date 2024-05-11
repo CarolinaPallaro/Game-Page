@@ -1,11 +1,11 @@
 import { HeaderPage, FooterPage } from "./indexEstructure";
 
-const BodyPage =() =>{
+function BodyPage(){
     return(
-        <body className="body-page ">
+        <div className='body-page bg-primary '>
             <HeaderPage />
             <FooterPage />
-        </body>
+        </div>
         
     )
 }

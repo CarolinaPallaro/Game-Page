@@ -2,7 +2,7 @@ const SideBar = () => {
     return(
             <ul className="sideBar-items">
 
-                <ul className="sideBar-games-items">
+                <ul className="sideBar-games-items #172554">
                 <font>Mas Jugados</font>
                 <li>Fornite</li>
                 <li>Ligue Of Leyends</li>

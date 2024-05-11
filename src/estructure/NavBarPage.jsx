@@ -2,12 +2,12 @@ import {  NavList } from "../components/index";
 
 const NavBarPage = () =>{
     return(
-        <nav className="nav-page">
+        <div className="nav-page">
 
            
             <NavList />
 
-        </nav>
+        </div>
 
     )
 }

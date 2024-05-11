@@ -1,16 +1,15 @@
 import { NavBarPage } from "./NavBarPage";
-import { SideBarButton } from "../components/index";
 const HeaderPage = ()=>{
     return(
 
-      <header className="">
+      <div className="">
      
-       <SideBarButton />
+       
         <NavBarPage />
         
     
 
-      </header>
+      </div>
 
     )
 }
