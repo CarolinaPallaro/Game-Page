@@ -1,7 +1,7 @@
 import { FooterItems, TopButton } from "../components"
-const Footer = () =>{
+const FooterPage = () =>{
     return(
-       <footer className="footer">
+       <footer className="footer-page">
        <FooterItems />
        <TopButton />
 
@@ -9,4 +9,4 @@ const Footer = () =>{
     )
 }
 
-export {Footer}
+export {FooterPage}

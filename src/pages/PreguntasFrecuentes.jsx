@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 Link
 const PreguntasFrecuentes = () => {
   return (
-    <div className="preguntas-page">
+    <div className="preguntas-page ">
       <h3>Preguntas Frecuentes</h3>
 
       <br />

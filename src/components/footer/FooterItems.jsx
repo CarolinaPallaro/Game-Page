@@ -1,4 +1,3 @@
-import { TopButton } from "./TopButton";
 
 
 
@@ -12,10 +11,6 @@ const FooterItems = () => {
             <li>YouTube</li>
             <li>Twiiter</li>
         </ul>
-
-        <TopButton 
-        
-        />
 
        
         </div>

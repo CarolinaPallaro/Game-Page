@@ -1,9 +1,9 @@
 import { NavBarPage } from "./NavBarPage";
 import { SideBarButton } from "../components/index";
-const Header = ()=>{
+const HeaderPage = ()=>{
     return(
 
-      <header className="header">
+      <header className="">
      
        <SideBarButton />
         <NavBarPage />
@@ -15,4 +15,4 @@ const Header = ()=>{
     )
 }
 
-export {Header};
+export {HeaderPage};
