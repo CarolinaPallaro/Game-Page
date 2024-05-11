@@ -1,13 +1,17 @@
 
-import React from "react";
-import { Header } from "./assets/estructure/Header";
+import {Body} from "./assets/estructure/indexEstructure";
+// import React from "react";
+
 function App() {
  
 
   return (
-    <>
-     <Header />
-    </>
+    <div className="App">
+       <Body />
+
+    </div>
+    
+   
   )
 }
 
