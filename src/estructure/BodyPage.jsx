@@ -1,9 +1,10 @@
-import { HeaderPage, FooterPage } from "./indexEstructure";
+import { HeaderPage, FooterPage, Main } from "./indexEstructure";
 
 function BodyPage(){
     return(
-        <div className='body-page bg-primary '>
+        <div className='body-page'>
             <HeaderPage />
+            <Main />
             <FooterPage />
         </div>
         

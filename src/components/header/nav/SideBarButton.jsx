@@ -1,6 +1,7 @@
 // import React, {useState} from "react";
 import { useState } from "react";
 import { SideBar } from "./SideBar";
+import arrow from '/public/arrow.svg'
 
 const SideBarButton = () => {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -9,13 +10,15 @@ const SideBarButton = () => {
     setShowSidebar(!showSidebar);
   };
 
+
   return (
     <button 
     type="button"
-    className="sideBar-logo-button" 
+    className="sideBar-logo-button h-5 w-5 left-3" 
     onClick={toggleSidebar}>
-      {showSidebar ? 'Close' : 'SideBar'}
-      {showSidebar && <SideBar />}
+      <img src={arrow} alt="arrow"></img>
+      {showSidebar ? ' ' : ' '}
+      {showSidebar && <SideBar/>}
     </button>
   );
 };

@@ -1,15 +1,14 @@
-import { NavLink } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 
 const NavList = () => {
     return(
 
-        <ul className="flex flex-row gap-1 bg-secondary text-terceary">
-           <li><NavLink to="/" exact="true">Home</NavLink></li>
-           <li><NavLink to="/Tienda">Tienda</NavLink></li>
-           <li><NavLink to="/help">Help</NavLink></li>
-           <li><NavLink to="/noticias">Noticias</NavLink></li>
-           <li><NavLink to="/preguntasFrecuentes">Preguntas Frecuentes</NavLink></li>
+        <ul className="flex flex-row space-x-6 ">
+           <Link to="/" >Home</Link>
+           <Link to="/Tienda">Tienda</Link>
+           <Link to="/help">Help</Link>
+           <Link to="/noticias">Noticias</Link>
+           <Link to="/preguntasFrecuentes">Preguntas Frecuentes</Link>
            
 
         </ul>

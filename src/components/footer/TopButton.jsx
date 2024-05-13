@@ -1,5 +1,5 @@
 import {useState} from "react";
-
+import upArrow from '/public/up.svg'
 const TopButton = () =>{
 
     const [position, setPosition] = useState (0);
@@ -16,8 +16,8 @@ const TopButton = () =>{
     return(
      <button 
      type="button"
-     className="top-button" 
-     onClick={()=>setPosition (window.pageYOffset)}>Top</button>
+     className="top-button  bg-white w-6 h-6" 
+     onClick={()=>setPosition (window.pageYOffset)}> <img src={upArrow} alt="arrow" /> </button>
        
 
     )

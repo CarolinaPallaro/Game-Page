@@ -60,6 +60,28 @@ const PreguntasFrecuentes = () => {
           velit deserunt quidem unde ipsam nesciunt quibusdam molestias pariatur
           cumque facilis corrupti minima, id tempora fugiat!
         </p>    
+        </article><article>
+         <font>Plataforma</font>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+          cum illo neque similique natus libero assumenda necessitatibus ullam
+          voluptatibus adipisci doloribus in fugit quam! Assumenda corporis
+          ducimus possimus adipisci deserunt!Lorem Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Aut vel, obcaecati quaerat dolores sit
+          velit deserunt quidem unde ipsam nesciunt quibusdam molestias pariatur
+          cumque facilis corrupti minima, id tempora fugiat!
+        </p>    
+        </article><article>
+         <font>Plataforma</font>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+          cum illo neque similique natus libero assumenda necessitatibus ullam
+          voluptatibus adipisci doloribus in fugit quam! Assumenda corporis
+          ducimus possimus adipisci deserunt!Lorem Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Aut vel, obcaecati quaerat dolores sit
+          velit deserunt quidem unde ipsam nesciunt quibusdam molestias pariatur
+          cumque facilis corrupti minima, id tempora fugiat!
+        </p>    
         </article>
 
 

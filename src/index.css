@@ -4,17 +4,31 @@
 
 @layer base{
     :root{
-        --color-primary:  rgb(18, 18, 18);
-        --color-secondary: #0c;
-        --bg-color-default: white;
-        --text-color-default: black;
+        --bg-color-default: rgb(15 23 42);
+        --text-color-default: #cdf5f9;
         --border-radius: 5px;
+        --opacity-box: #17255491;
        
-        padding: auto;
-        margin: 0;
-        
+   
     }
 
+    .App{
+     height: 100vh;
+     box-sizing: border-box;
+     background-color: rgb(15 23 42);
+     color: var(--text-color-default);
+
+
+    }
+
+
+    li{
+        list-style: none;  
+    }
+    li:hover{
+        cursor: pointer;
+        color: rgb(145, 4, 115);
+    }
    
 }
 
